@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map O.40d on Thu Dec 08 20:15:20 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "nq0" LOCATE = SITE "M11" LEVEL 1;
+COMP "nq1" LOCATE = SITE "N11" LEVEL 1;
+COMP "nq2" LOCATE = SITE "R11" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "q0" LOCATE = SITE "U16" LEVEL 1;
+COMP "q1" LOCATE = SITE "V16" LEVEL 1;
+COMP "q2" LOCATE = SITE "U15" LEVEL 1;
+SCHEMATIC END;
+

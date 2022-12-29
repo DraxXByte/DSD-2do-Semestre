@@ -1,0 +1,8 @@
+net clk loc ="V10";
+net q0 loc ="U16";
+net q1 loc ="V16";
+net q2 loc ="U15";
+
+net nq0 loc ="M11";
+net nq1 loc ="N11";
+net nq2 loc ="R11";
