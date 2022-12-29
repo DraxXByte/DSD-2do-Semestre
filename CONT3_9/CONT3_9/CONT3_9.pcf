@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Thu Dec 22 08:28:02 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "DOWN" LOCATE = SITE "C9" LEVEL 1;
+COMP "UP" LOCATE = SITE "A8" LEVEL 1;
+COMP "SAL<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "SAL<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "SAL<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "SAL<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "RST" LOCATE = SITE "T5" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+SCHEMATIC END;
+

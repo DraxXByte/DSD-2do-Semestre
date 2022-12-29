@@ -1,0 +1,9 @@
+net UP loc="A8";
+net DOWN loc="C9";
+net RST loc="T5";
+
+net CLK loc="V10";
+net SAL(0) loc="U16";
+net SAL(1) loc="V16";
+net SAL(2) loc="U15";
+net SAL(3) loc="V15";

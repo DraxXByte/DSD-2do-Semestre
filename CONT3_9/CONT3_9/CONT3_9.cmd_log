@@ -1,0 +1,55 @@
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf 
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
+xst -intstyle ise -ifn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/xilinx/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
+xst -intstyle ise -ifn "D:/HUHUHUHUHUHUHU/CONT3_9/CONT3_9/CONT3_9.xst" -ofn "D:/HUHUHUHUHUHUHU/CONT3_9/CONT3_9/CONT3_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 CONT3_9.ngc CONT3_9.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CONT3_9_map.ncd CONT3_9.ngd CONT3_9.pcf 
+par -w -intstyle ise -ol high -mt off CONT3_9_map.ncd CONT3_9.ncd CONT3_9.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CONT3_9.twx CONT3_9.ncd -o CONT3_9.twr CONT3_9.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f CONT3_9.ut CONT3_9.ncd 
