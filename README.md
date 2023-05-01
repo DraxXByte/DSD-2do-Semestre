@@ -1,3 +1,3 @@
-# DSD-2do-Semestre
+# DSD
 Prof: Cesar Mújica
 # Programas que pueden ser usados
